@@ -1,0 +1,9 @@
+//create new expo app
+npx create-expo-app StickerSmash 
+cd StickerSmash
+
+//install dependencies
+npx expo install react-dom react-native-web @expo/webpack-config
+
+//run app on mobile and web
+npx expo start
